@@ -1,0 +1,14 @@
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\bin\Debug\02_Mi_Segunda_Vez.exe.config
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\bin\Debug\02_Mi_Segunda_Vez.exe
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\bin\Debug\02_Mi_Segunda_Vez.pdb
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\02_Mi_Segunda_Vez.csproj.AssemblyReference.cache
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Properties.Resources.resources
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\02_Mi_Segunda_Vez.csproj.GenerateResource.cache
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\02_Mi_Segunda_Vez.csproj.CoreCompileInputs.cache
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\02_Mi_Segunda_Vez.exe
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\02_Mi_Segunda_Vez.pdb
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Presentacion.MenuPrincipal.resources
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Presentacion.CUPersonal.resources
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Presentacion.Personal.FrmPersonal.resources
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Presentacion.FrmUsuarios.resources
+C:\Users\Charlie\Downloads\02_Mi_Segunda_Vez\02_Mi_Segunda_Vez\obj\Debug\_02_Mi_Segunda_Vez.Presentacion.NewFolder1.FrmMostrar.resources
