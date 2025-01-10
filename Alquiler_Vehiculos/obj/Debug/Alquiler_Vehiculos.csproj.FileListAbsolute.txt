@@ -1,0 +1,14 @@
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.csproj.AssemblyReference.cache
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Presentacion.CUClientes.resources
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Presentacion.MenuPrincipal.resources
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Properties.Resources.resources
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.csproj.GenerateResource.cache
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.csproj.CoreCompileInputs.cache
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\bin\Debug\Alquiler_Vehiculos.exe.config
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\bin\Debug\Alquiler_Vehiculos.exe
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\bin\Debug\Alquiler_Vehiculos.pdb
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.exe
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.pdb
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Presentacion.FrmInsertar.resources
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Presentacion.CUVehiculos.resources
+C:\Users\Charlie\Downloads\Alquiler_Vehiculos\obj\Debug\Alquiler_Vehiculos.Presentacion.FrmInsertarVehiculo.resources
