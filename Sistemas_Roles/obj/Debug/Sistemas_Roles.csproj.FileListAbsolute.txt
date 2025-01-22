@@ -1,0 +1,15 @@
+C:\Users\Charlie\Downloads\Sistemas_Roles\bin\Debug\Sistemas_Roles.exe.config
+C:\Users\Charlie\Downloads\Sistemas_Roles\bin\Debug\Sistemas_Roles.exe
+C:\Users\Charlie\Downloads\Sistemas_Roles\bin\Debug\Sistemas_Roles.pdb
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.csproj.AssemblyReference.cache
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.FrmLogin.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Properties.Resources.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.csproj.GenerateResource.cache
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.csproj.CoreCompileInputs.cache
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.exe
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.pdb
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Presentacion.FrmMenuPrincipal.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Presentacion.CURoles.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Presentacion.CUUsuarios.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Presentacion.FrmInsertarUsuarios.resources
+C:\Users\Charlie\Downloads\Sistemas_Roles\obj\Debug\Sistemas_Roles.Presentacion.FrmInsertarRoles.resources
