@@ -1,0 +1,303 @@
+InnoDB: using atomic writes.
+2025-06-27 14:57:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-06-27 14:57:13 0 [Note] InnoDB: Uses event mutexes
+2025-06-27 14:57:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2025-06-27 14:57:13 0 [Note] InnoDB: Number of pools: 1
+2025-06-27 14:57:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-06-27 14:57:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-06-27 14:57:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\agendamiento_citas\citas.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``agendamiento_citas`.`citas``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `agendamiento_citas`.`citas` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\barcelona\jugadores.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``barcelona`.`jugadores``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `barcelona`.`jugadores` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\bd_nueva\clientes.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``bd_nueva`.`clientes``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `bd_nueva`.`clientes` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\bdreplica\test.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``bdreplica`.`test``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `bdreplica`.`test` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\gestor_tareas\alumnos.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``gestor_tareas`.`alumnos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `gestor_tareas`.`alumnos` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\gestor_tareas\tareas.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``gestor_tareas`.`tareas``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `gestor_tareas`.`tareas` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\gtid_slave_pos.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`gtid_slave_pos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`gtid_slave_pos` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_index_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_index_stats` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_table_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_table_stats` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\transaction_registry.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`transaction_registry``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`transaction_registry` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__bookmark.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__bookmark``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__bookmark` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__central_columns.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__central_columns``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__central_columns` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__column_info.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__column_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__column_info` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__designer_settings.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__designer_settings``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__designer_settings` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__export_templates.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__export_templates``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__export_templates` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__favorite.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__favorite``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__favorite` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__history.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__history` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__navigationhiding.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__navigationhiding``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__navigationhiding` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__pdf_pages.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__pdf_pages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__pdf_pages` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__recent.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__recent``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__recent` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__relation.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__relation``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__relation` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__savedsearches.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__savedsearches``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__savedsearches` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_coords.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_coords``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_coords` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_info.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_info` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_uiprefs.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_uiprefs``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_uiprefs` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__tracking.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__tracking``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__tracking` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__userconfig.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__userconfig``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__userconfig` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__usergroups.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__usergroups``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__usergroups` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__users.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__users` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\practica\snp_repr.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``practica`.`snp_repr``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `practica`.`snp_repr` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\practica2\test.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``practica2`.`test``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `practica2`.`test` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\replicadb\prueba.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``replicadb`.`prueba``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `replicadb`.`prueba` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\servidor1\productos.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``servidor1`.`productos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `servidor1`.`productos` because it could not be opened.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\servidor2\productos.ibd' OS error: 203
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``servidor2`.`productos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Warning] InnoDB: Ignoring tablespace for `servidor2`.`productos` because it could not be opened.
+2025-06-27 14:57:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-06-27 14:57:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-06-27 14:57:13 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-06-27 14:57:13 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-06-27 14:57:13 0 [Note] InnoDB: Waiting for purge to start
+2025-06-27 14:57:13 2 [ERROR] InnoDB: Failed to find tablespace for table `phpmyadmin`.`pma__userconfig` in the cache. Attempting to load the tablespace with space id 16
+2025-06-27 14:57:13 2 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-06-27 14:57:13 2 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-06-27 14:57:13 2 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-06-27 14:57:13 2 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__userconfig.ibd' OS error: 203
+2025-06-27 14:57:13 2 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-06-27 14:57:13 2 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-06-27 14:57:13 2 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__userconfig``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-06-27 14:57:13 0 [Note] InnoDB: 10.4.6 started; log sequence number 927714; transaction id 1372
+2025-06-27 14:57:13 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-06-27 14:57:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-06-27 14:57:13 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2025-06-27 14:57:13 0 [Note] InnoDB: Buffer pool(s) load completed at 250627 14:57:13
+2025-06-27 14:57:13 6 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1017: Can't find file: '.\mysql\' (errno: 2 "No such file or directory")
+2025-06-27 14:57:13 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2025-06-27 14:57:13 0 [Note] Server socket created on IP: '0.0.0.0'.
+2025-06-27 14:57:13 0 [ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.db' doesn't exist
+2025-06-27 14:57:13 0 [ERROR] Aborting

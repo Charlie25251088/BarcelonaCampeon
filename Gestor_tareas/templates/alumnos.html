@@ -1,0 +1,109 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Alumnos</title>
+</head>
+<body>
+    <h1>Lista de Alumnos</h1>
+    <a href="/alumnos/nuevo">Agregar Alumno</a>
+    <ul>
+        {% for alumno in alumnos %}
+            <li>
+                {{ alumno[0] }} - {{ alumno[1] }}
+                <a href="/alumnos/editar/{{ alumno[0] }}">Editar</a>
+                <a href="/alumnos/eliminar/{{ alumno[0] }}">Eliminar</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>-->
+
+{% extends 'base.html' %}
+{% block title %}Lista de Alumnos{% endblock %}
+
+{% block contenido %}
+<h1 class="mb-4">Lista de Alumnos</h1>
+<a href="/alumnos/nuevo" class="btn btn-success mb-3">Agregar Alumno</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for alumno in alumnos %}
+        <tr>
+            <td>{{ alumno[0] }}</td>
+            <td>{{ alumno[1] }}</td>
+            <td>
+                <a href="/alumnos/editar/{{ alumno[0] }}" class="btn btn-warning btn-sm">Editar</a>
+                <a href="/alumnos/eliminar/{{ alumno[0] }}" class="btn btn-danger btn-sm" onclick="return confirmarEliminacion(event)">Eliminar</a>
+            </td>
+        </tr>
+        {% endfor %} 
+    </tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function confirmarEliminacion(e) {
+    e.preventDefault();
+    const url = e.currentTarget.getAttribute('href');
+    Swal.fire({
+        title: '¿Estás seguro?',
+        text: "¡Esta acción no se puede deshacer!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Sí, eliminar',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = url;
+        }
+    });
+}
+</script>
+{% endblock %}
+
+<!--<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Alumnos</title>
+    <link rel="stylesheet" href="/static/bootstrap-5.3.0/css/bootstrap.min.css">
+</head>
+<body class="container mt-4">
+    <h1 class="mb-4">Lista de Alumnos</h1>
+    <a href="/alumnos/nuevo" class="btn btn-success mb-3">Agregar Alumno</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for alumno in alumnos %}
+            <tr>
+                <td>{{ alumno[0] }}</td>
+                <td>{{ alumno[1] }}</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/alumnos/editar/{{ alumno[0] }}">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/alumnos/eliminar/{{ alumno[0] }}" onclick="return confirm('¿Estás seguro que deseas eliminar este alumno?');">Eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script src="/static/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>-->
