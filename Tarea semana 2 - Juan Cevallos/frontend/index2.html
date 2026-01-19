@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>por get</title>
+</head>
+<body>
+
+
+<h1>Nombre:</h1>
+<h2 id="nombre"></h2>
+<h1>Edad:</h1>
+<h2 id="edad"></h2>
+     <!--Jquery-->
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+     <script>
+        var ofuscar = ()=>{
+ ()=>{
+                var todos_parametros = new URLSearchParams(window.location.search);
+                var nombre = todos_parametros.get('nombre');
+                var edad = todos_parametros.get('edad');
+                $('#nombre').text(nombre);
+                $('#edad').text(edad);
+                todos_parametros.forEach(
+                    (valor, clave)=>{
+                        console.log(`Clave: ${clave} Valor: ${valor}`);
+                    }
+                );
+            }
+        }
+
+        $().ready(
+           
+        );
+    </script>
+</body>
+</html>
